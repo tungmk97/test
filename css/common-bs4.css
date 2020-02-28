@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+nav{
+  background-color: #e1e3e4;
+}
+
+.left-bar{
+  background-color: #e1e3e4;
+  border: 1px solid #d2d6d8;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-left: 0px;
+}
+
+main .btn-search {
+  border: 1px solid #d2d6d8;
+  margin-left: -10px;
+  background-color:whitesmoke;
+  border-radius: 5px;
+}
+
+.input-search {
+  width: 145px !important;
+  border-radius: 5px;
+}
+
+.border-grey{
+  border-top: 1px solid #acb8be;
+  /* border-bottom: 1px solid #acb8be !important; */
+  width: 220px;
+}
+
+.border-grey:hover {
+  cursor: pointer;
+}
+
+.profile-form .profile-element-txt {
+  background-color: #e1e3e4;
+}
+
+.profile-form {
+  font-weight: bold;
+}
